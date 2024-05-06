@@ -1,5 +1,5 @@
 # reto4-st0263
-Despliegue de la misma aplicación del Reto 3 en un clúster de alta disponibilidad en Kubernetes en AWS o GCP. Utiliza servicios gestionados como EKS o GKE. Asegura balanceo de carga, alta disponibilidad en la aplicación, base de datos y almacenamiento. Implementa HTTPS con un nombre de dominio.
+Despliegue de la misma aplicación del Reto 3 en un clúster de alta disponibilidad en Kubernetes en AWS o GCP. Utilizando servicios gestionados como EKS o GKE. Asegura balanceo de carga, alta disponibilidad en la aplicación, base de datos y almacenamiento. Implementando HTTPS con un nombre de dominio.
 
 
 ### Info de la Materia: Topicos Especiales en Telematica-st0263
