@@ -303,7 +303,7 @@ kubectl get all
 ```
 A        @        IP expuesta del balanceador
 A        reto4    IP expuesta del balanceador
-CNAME    www      reto4.toysnt.shop
+CNAME    www      reto3miguelito.online
 ```
 
   - Explicación:
