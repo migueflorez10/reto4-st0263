@@ -320,7 +320,7 @@ CNAME    ***      reto3miguelito.online
 
 6) Verifica la Configuración::
 - Una vez que la propagación se complete, verifica que el dominio esté configurado correctamente.
-- Accede al enlace http://reto4.toysnt.shop para comprobar si la página web se muestra correctamente.
+- Accede al enlace http://reto3miguelito.online para comprobar si la página web se muestra correctamente.
 ![image](https://github.com/migueflorez10/reto4-st0263/assets/68928440/5182f647-c8ca-4a78-a75f-ed195ed01940)
 
 
