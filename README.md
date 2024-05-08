@@ -1,4 +1,4 @@
-![image](https://github.com/migueflorez10/reto4-st0263/assets/68928440/acafd8ec-a466-414a-8cd4-4fcd5e0c450f)# reto4-st0263
+# reto4-st0263
 Despliegue de la misma aplicación del Reto 3 en un clúster de alta disponibilidad en Kubernetes en AWS o GCP. Utilizando servicios gestionados como EKS o GKE. Asegura balanceo de carga, alta disponibilidad en la aplicación, base de datos y almacenamiento. Implementando HTTPS con un nombre de dominio.
 
 # Link de Sustentación:
