@@ -1,8 +1,8 @@
-# reto4-st0263
+![image](https://github.com/migueflorez10/reto4-st0263/assets/68928440/acafd8ec-a466-414a-8cd4-4fcd5e0c450f)# reto4-st0263
 Despliegue de la misma aplicación del Reto 3 en un clúster de alta disponibilidad en Kubernetes en AWS o GCP. Utilizando servicios gestionados como EKS o GKE. Asegura balanceo de carga, alta disponibilidad en la aplicación, base de datos y almacenamiento. Implementando HTTPS con un nombre de dominio.
 
 # Link de Sustentación:
-[Ver Sustentación Reto 4](https://www.youtube.com/watch?v=sustentacion-reto-4)
+[Ver Sustentación Reto 4]([https://www.youtube.com/watch?v=sustentacion-reto-4](https://eafit-my.sharepoint.com/:v:/g/personal/mamartinef_eafit_edu_co/Ef8i9vlrlONAnRIpJaXIIb8BIJnZ1HGRPCTxaS8LNOoW3A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=tFMvv2))
 
 ### Info de la Materia: Topicos Especiales en Telematica-st0263
 
@@ -320,6 +320,8 @@ CNAME    www      reto4.toysnt.shop
 6) Verifica la Configuración::
 - Una vez que la propagación se complete, verifica que el dominio esté configurado correctamente.
 - Accede al enlace http://reto4.toysnt.shop para comprobar si la página web se muestra correctamente.
+![image](https://github.com/migueflorez10/reto4-st0263/assets/68928440/5182f647-c8ca-4a78-a75f-ed195ed01940)
+
 
 ##  Descripción del Ambiente de Desarrollo y Técnico
 El ambiente de desarrollo y técnico para este proyecto se basa en el uso de Google Cloud Platform (GCP) como proveedor de servicios en la nube y Kubernetes como gestor de 
