@@ -1,6 +1,8 @@
 # reto4-st0263
 Despliegue de la misma aplicación del Reto 3 en un clúster de alta disponibilidad en Kubernetes en AWS o GCP. Utilizando servicios gestionados como EKS o GKE. Asegura balanceo de carga, alta disponibilidad en la aplicación, base de datos y almacenamiento. Implementando HTTPS con un nombre de dominio.
 
+# Link de Sustentación:
+[Ver Sustentación Reto 4](https://www.youtube.com/watch?v=sustentacion-reto-4)
 
 ### Info de la Materia: Topicos Especiales en Telematica-st0263
 
@@ -285,6 +287,39 @@ http://external-ip-address
 ```
 kubectl get all
 ```
+
+### Configuración del Dominio en GoDaddy
+1) Accede al Panel de Administración de GoDaddy:
+- Inicia sesión en tu cuenta de GoDaddy.
+- Ve al panel de administración.
+
+2) Navega a la Sección de Registros DNS:
+- Busca la opción para administrar los registros DNS de tu dominio.
+- Esto puede variar según la interfaz de GoDaddy, pero generalmente se encuentra en la sección de configuración avanzada o DNS.
+
+3) Agrega los Registros DNS:
+- Agrega los siguientes registros DNS (reemplaza IP expuesta del balanceador con la dirección IP externa que obtuviste previamente):
+```
+A        @        IP expuesta del balanceador
+A        reto4    IP expuesta del balanceador
+CNAME    www      reto4.toysnt.shop
+```
+
+  - Explicación:
+    - El primer registro A apunta el dominio raíz (@) a la dirección IP del balanceador.
+    - El segundo registro A apunta el subdominio reto4 a la misma dirección IP.
+    - El registro CNAME crea un alias para el subdominio www que apunta a reto4.toysnt.shop.
+
+4) Guarda los Cambios:
+- Asegúrate de guardar los cambios realizados en los registros DNS.
+
+5) Espera la Propagación::
+- Ten en cuenta que los cambios pueden tardar algunas horas en propagarse por Internet.
+- Durante este tiempo, es posible que no puedas acceder al sitio web utilizando el dominio configurado.
+
+6) Verifica la Configuración::
+- Una vez que la propagación se complete, verifica que el dominio esté configurado correctamente.
+- Accede al enlace http://reto4.toysnt.shop para comprobar si la página web se muestra correctamente.
 
 ##  Descripción del Ambiente de Desarrollo y Técnico
 El ambiente de desarrollo y técnico para este proyecto se basa en el uso de Google Cloud Platform (GCP) como proveedor de servicios en la nube y Kubernetes como gestor de 
